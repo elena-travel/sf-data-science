@@ -11,7 +11,7 @@
 ### Описание проекта
 Угадать загаданное компьютером число за минимальное число попыток
 
-:arrow_up[к оглавлению](https://github.com/elena-travel/sf-dara-science/blob/main/project0/README.md#Оглавление)
+:arrow_up:[к оглавлению](https://github.com/elena-travel/sf-dara-science/blob/main/project0/README.md#Оглавление)
 
 ### Какой кейс решаем?
 Нужно написать программу, которая угадывает число за минимальное число попыток.
