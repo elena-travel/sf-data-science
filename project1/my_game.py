@@ -10,7 +10,7 @@ def score_game(random_predict) -> int:
         int: среднее количество попыток
     """
     count_ls = []
-    #np.random.seed(1)  # фиксируем сид для воспроизводимости
+    np.random.seed(1)  # фиксируем сид для воспроизводимости
     random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
 
     for number in random_array:
@@ -29,7 +29,7 @@ def game_core_v3(number: int = 1) -> int:
         int: Число попыток
     """
     # Ваш код начинается здесь
-    count = 0
+    count = 1
     min_num = 1
     max_num = 100
     predict = (max_num - (min_num-1))//2
