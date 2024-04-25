@@ -37,13 +37,17 @@ def game_core_v3(number: int = 1) -> int:
     while number != predict:
         count += 1
         if number > predict:
+            # Меняем значение минимума промежутка, ищем его середину
             min_num = predict + 1
             predict = (max_num + min_num + 1)//2
         elif number < predict:
+            # Меняем значение максимума промежутка, ищем его середину
             max_num = predict - 1
             predict = (max_num - (min_num-1))//2
+            
     return count
     # Ваш код заканчивается здесь
+
 
 print('Run benchmarking for game_core_v3: ', end='')
 score_game(game_core_v3)
